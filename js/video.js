@@ -53,9 +53,9 @@ volumeSlide.addEventListener('input', function(){
 });
 
 document.getElementById('vintage').addEventListener('click', function(){
-	video.classList.add('oldschool');
+	video.classList.add('oldSchool');
 });
 
 document.getElementById('orig').addEventListener('click', function(){
-	video.classList.add('oldschool');
+	video.classList.remove('oldSchool');
 });
